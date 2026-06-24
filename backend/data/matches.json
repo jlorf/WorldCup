@@ -1,0 +1,2334 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "group": "A",
+      "team1": "Mexico",
+      "team2": "South Africa",
+      "date": "2026-06-11",
+      "time": "21:00"
+    },
+    {
+      "id": 2,
+      "group": "A",
+      "team1": "South Korea",
+      "team2": "Czech Republic",
+      "date": "2026-06-12",
+      "time": "04:00"
+    },
+    {
+      "id": 3,
+      "group": "A",
+      "team1": "Czech Republic",
+      "team2": "South Africa",
+      "date": "2026-06-18",
+      "time": "20:00"
+    },
+    {
+      "id": 4,
+      "group": "A",
+      "team1": "Mexico",
+      "team2": "South Korea",
+      "date": "2026-06-19",
+      "time": "03:00"
+    },
+    {
+      "id": 5,
+      "group": "A",
+      "team1": "Czech Republic",
+      "team2": "Mexico",
+      "date": "2026-06-25",
+      "time": "03:00"
+    },
+    {
+      "id": 6,
+      "group": "A",
+      "team1": "South Africa",
+      "team2": "South Korea",
+      "date": "2026-06-25",
+      "time": "03:00"
+    },
+    {
+      "id": 7,
+      "group": "B",
+      "team1": "Canada",
+      "team2": "Bosnia & Herzegovina",
+      "date": "2026-06-13",
+      "time": "22:00"
+    },
+    {
+      "id": 8,
+      "group": "B",
+      "team1": "Qatar",
+      "team2": "Switzerland",
+      "date": "2026-06-13",
+      "time": "21:00"
+    },
+    {
+      "id": 9,
+      "group": "B",
+      "team1": "Switzerland",
+      "team2": "Bosnia & Herzegovina",
+      "date": "2026-06-19",
+      "time": "21:00"
+    },
+    {
+      "id": 10,
+      "group": "B",
+      "team1": "Canada",
+      "team2": "Qatar",
+      "date": "2026-06-19",
+      "time": "00:00"
+    },
+    {
+      "id": 11,
+      "group": "B",
+      "team1": "Switzerland",
+      "team2": "Canada",
+      "date": "2026-06-25",
+      "time": "21:00"
+    },
+    {
+      "id": 12,
+      "group": "B",
+      "team1": "Bosnia & Herzegovina",
+      "team2": "Qatar",
+      "date": "2026-06-25",
+      "time": "21:00"
+    },
+    {
+      "id": 13,
+      "group": "C",
+      "team1": "Brazil",
+      "team2": "Morocco",
+      "date": "2026-06-14",
+      "time": "00:00"
+    },
+    {
+      "id": 14,
+      "group": "C",
+      "team1": "Haiti",
+      "team2": "Scotland",
+      "date": "2026-06-14",
+      "time": "03:00"
+    },
+    {
+      "id": 15,
+      "group": "C",
+      "team1": "Scotland",
+      "team2": "Morocco",
+      "date": "2026-06-20",
+      "time": "00:00"
+    },
+    {
+      "id": 16,
+      "group": "C",
+      "team1": "Brazil",
+      "team2": "Haiti",
+      "date": "2026-06-20",
+      "time": "02:30"
+    },
+    {
+      "id": 17,
+      "group": "C",
+      "team1": "Scotland",
+      "team2": "Brazil",
+      "date": "2026-06-25",
+      "time": "00:00"
+    },
+    {
+      "id": 18,
+      "group": "C",
+      "team1": "Morocco",
+      "team2": "Haiti",
+      "date": "2026-06-25",
+      "time": "00:00"
+    },
+    {
+      "id": 19,
+      "group": "D",
+      "team1": "USA",
+      "team2": "Paraguay",
+      "date": "2026-06-13",
+      "time": "02:00"
+    },
+    {
+      "id": 20,
+      "group": "D",
+      "team1": "Australia",
+      "team2": "Turkey",
+      "date": "2026-06-14",
+      "time": "05:00"
+    },
+    {
+      "id": 21,
+      "group": "D",
+      "team1": "USA",
+      "team2": "Australia",
+      "date": "2026-06-19",
+      "time": "20:00"
+    },
+    {
+      "id": 22,
+      "group": "D",
+      "team1": "Turkey",
+      "team2": "Paraguay",
+      "date": "2026-06-20",
+      "time": "04:00"
+    },
+    {
+      "id": 23,
+      "group": "D",
+      "team1": "Turkey",
+      "team2": "USA",
+      "date": "2026-06-26",
+      "time": "03:00"
+    },
+    {
+      "id": 24,
+      "group": "D",
+      "team1": "Paraguay",
+      "team2": "Australia",
+      "date": "2026-06-26",
+      "time": "03:00"
+    },
+    {
+      "id": 25,
+      "group": "E",
+      "team1": "Germany",
+      "team2": "Curaçao",
+      "date": "2026-06-14",
+      "time": "19:00"
+    },
+    {
+      "id": 26,
+      "group": "E",
+      "team1": "Ivory Coast",
+      "team2": "Ecuador",
+      "date": "2026-06-15",
+      "time": "02:00"
+    },
+    {
+      "id": 27,
+      "group": "E",
+      "team1": "Germany",
+      "team2": "Ivory Coast",
+      "date": "2026-06-21",
+      "time": "22:00"
+    },
+    {
+      "id": 28,
+      "group": "E",
+      "team1": "Ecuador",
+      "team2": "Curaçao",
+      "date": "2026-06-21",
+      "time": "01:00"
+    },
+    {
+      "id": 29,
+      "group": "E",
+      "team1": "Curaçao",
+      "team2": "Ivory Coast",
+      "date": "2026-06-26",
+      "time": "22:00"
+    },
+    {
+      "id": 30,
+      "group": "E",
+      "team1": "Ecuador",
+      "team2": "Germany",
+      "date": "2026-06-26",
+      "time": "22:00"
+    },
+    {
+      "id": 31,
+      "group": "F",
+      "team1": "Netherlands",
+      "team2": "Japan",
+      "date": "2026-06-14",
+      "time": "22:00"
+    },
+    {
+      "id": 32,
+      "group": "F",
+      "team1": "Sweden",
+      "team2": "Tunisia",
+      "date": "2026-06-15",
+      "time": "03:00"
+    },
+    {
+      "id": 33,
+      "group": "F",
+      "team1": "Netherlands",
+      "team2": "Sweden",
+      "date": "2026-06-21",
+      "time": "19:00"
+    },
+    {
+      "id": 34,
+      "group": "F",
+      "team1": "Tunisia",
+      "team2": "Japan",
+      "date": "2026-06-21",
+      "time": "05:00"
+    },
+    {
+      "id": 35,
+      "group": "F",
+      "team1": "Japan",
+      "team2": "Sweden",
+      "date": "2026-06-26",
+      "time": "01:00"
+    },
+    {
+      "id": 36,
+      "group": "F",
+      "team1": "Tunisia",
+      "team2": "Netherlands",
+      "date": "2026-06-26",
+      "time": "01:00"
+    },
+    {
+      "id": 37,
+      "group": "G",
+      "team1": "Belgium",
+      "team2": "Egypt",
+      "date": "2026-06-15",
+      "time": "20:00"
+    },
+    {
+      "id": 38,
+      "group": "G",
+      "team1": "Iran",
+      "team2": "New Zealand",
+      "date": "2026-06-16",
+      "time": "02:00"
+    },
+    {
+      "id": 39,
+      "group": "G",
+      "team1": "Belgium",
+      "team2": "Iran",
+      "date": "2026-06-21",
+      "time": "20:00"
+    },
+    {
+      "id": 40,
+      "group": "G",
+      "team1": "New Zealand",
+      "team2": "Egypt",
+      "date": "2026-06-22",
+      "time": "02:00"
+    },
+    {
+      "id": 41,
+      "group": "G",
+      "team1": "Egypt",
+      "team2": "Iran",
+      "date": "2026-06-26",
+      "time": "04:00"
+    },
+    {
+      "id": 42,
+      "group": "G",
+      "team1": "New Zealand",
+      "team2": "Belgium",
+      "date": "2026-06-27",
+      "time": "04:00"
+    },
+    {
+      "id": 43,
+      "group": "H",
+      "team1": "Spain",
+      "team2": "Cape Verde",
+      "date": "2026-06-15",
+      "time": "20:00"
+    },
+    {
+      "id": 44,
+      "group": "H",
+      "team1": "Saudi Arabia",
+      "team2": "Uruguay",
+      "date": "2026-06-16",
+      "time": "02:00"
+    },
+    {
+      "id": 45,
+      "group": "H",
+      "team1": "Spain",
+      "team2": "Saudi Arabia",
+      "date": "2026-06-21",
+      "time": "20:00"
+    },
+    {
+      "id": 46,
+      "group": "H",
+      "team1": "Uruguay",
+      "team2": "Cape Verde",
+      "date": "2026-06-22",
+      "time": "02:00"
+    },
+    {
+      "id": 47,
+      "group": "H",
+      "team1": "Cape Verde",
+      "team2": "Saudi Arabia",
+      "date": "2026-06-26",
+      "time": "03:00"
+    },
+    {
+      "id": 48,
+      "group": "H",
+      "team1": "Uruguay",
+      "team2": "Spain",
+      "date": "2026-06-27",
+      "time": "02:00"
+    },
+    {
+      "id": 49,
+      "group": "I",
+      "team1": "France",
+      "team2": "Senegal",
+      "date": "2026-06-16",
+      "time": "21:00"
+    },
+    {
+      "id": 50,
+      "group": "I",
+      "team1": "Iraq",
+      "team2": "Norway",
+      "date": "2026-06-17",
+      "time": "00:00"
+    },
+    {
+      "id": 51,
+      "group": "I",
+      "team1": "France",
+      "team2": "Iraq",
+      "date": "2026-06-22",
+      "time": "23:00"
+    },
+    {
+      "id": 52,
+      "group": "I",
+      "team1": "Norway",
+      "team2": "Senegal",
+      "date": "2026-06-23",
+      "time": "02:00"
+    },
+    {
+      "id": 53,
+      "group": "I",
+      "team1": "Norway",
+      "team2": "France",
+      "date": "2026-06-26",
+      "time": "21:00"
+    },
+    {
+      "id": 54,
+      "group": "I",
+      "team1": "Senegal",
+      "team2": "Iraq",
+      "date": "2026-06-26",
+      "time": "21:00"
+    },
+    {
+      "id": 55,
+      "group": "J",
+      "team1": "Argentina",
+      "team2": "Algeria",
+      "date": "2026-06-17",
+      "time": "02:00"
+    },
+    {
+      "id": 56,
+      "group": "J",
+      "team1": "Austria",
+      "team2": "Jordan",
+      "date": "2026-06-17",
+      "time": "04:00"
+    },
+    {
+      "id": 57,
+      "group": "J",
+      "team1": "Argentina",
+      "team2": "Austria",
+      "date": "2026-06-22",
+      "time": "19:00"
+    },
+    {
+      "id": 58,
+      "group": "J",
+      "team1": "Jordan",
+      "team2": "Algeria",
+      "date": "2026-06-23",
+      "time": "03:00"
+    },
+    {
+      "id": 59,
+      "group": "J",
+      "team1": "Algeria",
+      "team2": "Austria",
+      "date": "2026-06-28",
+      "time": "04:00"
+    },
+    {
+      "id": 60,
+      "group": "J",
+      "team1": "Jordan",
+      "team2": "Argentina",
+      "date": "2026-06-28",
+      "time": "04:00"
+    },
+    {
+      "id": 61,
+      "group": "K",
+      "team1": "Portugal",
+      "team2": "DR Congo",
+      "date": "2026-06-17",
+      "time": "19:00"
+    },
+    {
+      "id": 62,
+      "group": "K",
+      "team1": "Uzbekistan",
+      "team2": "Colombia",
+      "date": "2026-06-18",
+      "time": "03:00"
+    },
+    {
+      "id": 63,
+      "group": "K",
+      "team1": "Portugal",
+      "team2": "Uzbekistan",
+      "date": "2026-06-23",
+      "time": "19:00"
+    },
+    {
+      "id": 64,
+      "group": "K",
+      "team1": "Colombia",
+      "team2": "DR Congo",
+      "date": "2026-06-24",
+      "time": "03:00"
+    },
+    {
+      "id": 65,
+      "group": "K",
+      "team1": "Colombia",
+      "team2": "Portugal",
+      "date": "2026-06-28",
+      "time": "02:30"
+    },
+    {
+      "id": 66,
+      "group": "K",
+      "team1": "DR Congo",
+      "team2": "Uzbekistan",
+      "date": "2026-06-28",
+      "time": "02:30"
+    },
+    {
+      "id": 67,
+      "group": "L",
+      "team1": "England",
+      "team2": "Croatia",
+      "date": "2026-06-17",
+      "time": "21:00"
+    },
+    {
+      "id": 68,
+      "group": "L",
+      "team1": "Ghana",
+      "team2": "Panama",
+      "date": "2026-06-18",
+      "time": "01:00"
+    },
+    {
+      "id": 69,
+      "group": "L",
+      "team1": "England",
+      "team2": "Ghana",
+      "date": "2026-06-23",
+      "time": "22:00"
+    },
+    {
+      "id": 70,
+      "group": "L",
+      "team1": "Panama",
+      "team2": "Croatia",
+      "date": "2026-06-24",
+      "time": "01:00"
+    },
+    {
+      "id": 71,
+      "group": "L",
+      "team1": "Panama",
+      "team2": "England",
+      "date": "2026-06-27",
+      "time": "23:00"
+    },
+    {
+      "id": 72,
+      "group": "L",
+      "team1": "Croatia",
+      "team2": "Ghana",
+      "date": "2026-06-28",
+      "time": "23:00"
+    },
+    {
+      "id": 73,
+      "round": "Round of 32",
+      "team1": "2A",
+      "team2": "2B",
+      "date": "2026-06-28",
+      "time": "12:00"
+    },
+    {
+      "id": 74,
+      "round": "Round of 32",
+      "team1": "1E",
+      "team2": "3A/B/C/D/F",
+      "date": "2026-06-29",
+      "time": "16:30"
+    },
+    {
+      "id": 75,
+      "round": "Round of 32",
+      "team1": "1F",
+      "team2": "2C",
+      "date": "2026-06-29",
+      "time": "19:00"
+    },
+    {
+      "id": 76,
+      "round": "Round of 32",
+      "team1": "1C",
+      "team2": "2F",
+      "date": "2026-06-29",
+      "time": "12:00"
+    },
+    {
+      "id": 77,
+      "round": "Round of 32",
+      "team1": "1I",
+      "team2": "3C/D/F/G/H",
+      "date": "2026-06-30",
+      "time": "17:00"
+    },
+    {
+      "id": 78,
+      "round": "Round of 32",
+      "team1": "2E",
+      "team2": "2I",
+      "date": "2026-06-30",
+      "time": "12:00"
+    },
+    {
+      "id": 79,
+      "round": "Round of 32",
+      "team1": "1A",
+      "team2": "3C/E/F/H/I",
+      "date": "2026-06-30",
+      "time": "19:00"
+    },
+    {
+      "id": 80,
+      "round": "Round of 32",
+      "team1": "1L",
+      "team2": "3E/H/I/J/K",
+      "date": "2026-07-01",
+      "time": "12:00"
+    },
+    {
+      "id": 81,
+      "round": "Round of 32",
+      "team1": "1D",
+      "team2": "3B/E/F/I/J",
+      "date": "2026-07-01",
+      "time": "17:00"
+    },
+    {
+      "id": 82,
+      "round": "Round of 32",
+      "team1": "1G",
+      "team2": "3A/E/H/I/J",
+      "date": "2026-07-01",
+      "time": "13:00"
+    },
+    {
+      "id": 83,
+      "round": "Round of 32",
+      "team1": "2K",
+      "team2": "2L",
+      "date": "2026-07-02",
+      "time": "19:00"
+    },
+    {
+      "id": 84,
+      "round": "Round of 32",
+      "team1": "1H",
+      "team2": "2J",
+      "date": "2026-07-02",
+      "time": "12:00"
+    },
+    {
+      "id": 85,
+      "round": "Round of 32",
+      "team1": "1B",
+      "team2": "3E/F/G/I/J",
+      "date": "2026-07-02",
+      "time": "20:00"
+    },
+    {
+      "id": 86,
+      "round": "Round of 32",
+      "team1": "1J",
+      "team2": "2H",
+      "date": "2026-07-03",
+      "time": "18:00"
+    },
+    {
+      "id": 87,
+      "round": "Round of 32",
+      "team1": "1K",
+      "team2": "3D/E/I/J/L",
+      "date": "2026-07-03",
+      "time": "20:30"
+    },
+    {
+      "id": 88,
+      "round": "Round of 32",
+      "team1": "2D",
+      "team2": "2G",
+      "date": "2026-07-03",
+      "time": "13:00"
+    },
+    {
+      "id": 89,
+      "round": "Round of 16",
+      "team1": "W74",
+      "team2": "W77",
+      "date": "2026-07-04",
+      "time": "17:00"
+    },
+    {
+      "id": 90,
+      "round": "Round of 16",
+      "team1": "W73",
+      "team2": "W75",
+      "date": "2026-07-04",
+      "time": "12:00"
+    },
+    {
+      "id": 91,
+      "round": "Round of 16",
+      "team1": "W76",
+      "team2": "W78",
+      "date": "2026-07-05",
+      "time": "16:00"
+    },
+    {
+      "id": 92,
+      "round": "Round of 16",
+      "team1": "W79",
+      "team2": "W80",
+      "date": "2026-07-05",
+      "time": "18:00"
+    },
+    {
+      "id": 93,
+      "round": "Round of 16",
+      "team1": "W83",
+      "team2": "W84",
+      "date": "2026-07-06",
+      "time": "14:00"
+    },
+    {
+      "id": 94,
+      "round": "Round of 16",
+      "team1": "W81",
+      "team2": "W82",
+      "date": "2026-07-06",
+      "time": "17:00"
+    },
+    {
+      "id": 95,
+      "round": "Round of 16",
+      "team1": "W86",
+      "team2": "W88",
+      "date": "2026-07-07",
+      "time": "12:00"
+    },
+    {
+      "id": 96,
+      "round": "Round of 16",
+      "team1": "W85",
+      "team2": "W87",
+      "date": "2026-07-07",
+      "time": "13:00"
+    },
+    {
+      "id": 97,
+      "round": "Quarter-final",
+      "team1": "W89",
+      "team2": "W90",
+      "date": "2026-07-09",
+      "time": "16:00"
+    },
+    {
+      "id": 98,
+      "round": "Quarter-final",
+      "team1": "W93",
+      "team2": "W94",
+      "date": "2026-07-10",
+      "time": "12:00"
+    },
+    {
+      "id": 99,
+      "round": "Quarter-final",
+      "team1": "W91",
+      "team2": "W92",
+      "date": "2026-07-11",
+      "time": "17:00"
+    },
+    {
+      "id": 100,
+      "round": "Quarter-final",
+      "team1": "W95",
+      "team2": "W96",
+      "date": "2026-07-11",
+      "time": "20:00"
+    },
+    {
+      "id": 101,
+      "round": "Semi-final",
+      "team1": "W97",
+      "team2": "W98",
+      "date": "2026-07-14",
+      "time": "14:00"
+    },
+    {
+      "id": 102,
+      "round": "Semi-final",
+      "team1": "W99",
+      "team2": "W100",
+      "date": "2026-07-15",
+      "time": "15:00"
+    },
+    {
+      "id": 103,
+      "round": "Match for third place",
+      "team1": "L101",
+      "team2": "L102",
+      "date": "2026-07-18",
+      "time": "17:00"
+    },
+    {
+      "id": 104,
+      "round": "Final",
+      "team1": "W101",
+      "team2": "W102",
+      "date": "2026-07-19",
+      "time": "15:00"
+    }
+  ],
+  "results": {
+    "1778589692969": {
+      "1": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:28:31.803Z"
+      },
+      "2": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:28:40.839Z"
+      },
+      "3": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:29:03.783Z"
+      },
+      "4": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:29:14.507Z"
+      },
+      "5": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:29:30.649Z"
+      },
+      "6": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:29:58.948Z"
+      },
+      "7": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:30:24.641Z"
+      },
+      "8": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:31:40.244Z"
+      },
+      "9": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:31:49.583Z"
+      },
+      "10": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:32:38.626Z"
+      },
+      "11": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:32:50.851Z"
+      },
+      "12": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:33:06.067Z"
+      },
+      "13": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:33:30.701Z"
+      },
+      "14": {
+        "score1": 0,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:33:37.487Z"
+      },
+      "15": {
+        "score1": 1,
+        "score2": 4,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:33:45.521Z"
+      },
+      "16": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:34:01.426Z"
+      },
+      "17": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:34:09.399Z"
+      },
+      "18": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:34:17.398Z"
+      },
+      "19": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:34:43.337Z"
+      },
+      "20": {
+        "score1": 1,
+        "score2": 3,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:34:49.431Z"
+      },
+      "21": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:35:08.655Z"
+      },
+      "22": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:35:13.387Z"
+      },
+      "23": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:35:19.889Z"
+      },
+      "24": {
+        "score1": 0,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:35:25.543Z"
+      },
+      "25": {
+        "score1": 4,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:35:39.329Z"
+      },
+      "26": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:35:48.789Z"
+      },
+      "27": {
+        "score1": 4,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:35:58.906Z"
+      },
+      "28": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:36:08.055Z"
+      },
+      "29": {
+        "score1": 1,
+        "score2": 4,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:36:18.336Z"
+      },
+      "30": {
+        "score1": 2,
+        "score2": 5,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:36:32.645Z"
+      },
+      "31": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:36:52.716Z"
+      },
+      "32": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:37:46.941Z"
+      },
+      "33": {
+        "score1": 2,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:37:55.670Z"
+      },
+      "34": {
+        "score1": 0,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:38:00.906Z"
+      },
+      "35": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:38:08.251Z"
+      },
+      "36": {
+        "score1": 1,
+        "score2": 3,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:38:22.615Z"
+      },
+      "37": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:38:54.705Z"
+      },
+      "38": {
+        "score1": 0,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:39:04.117Z"
+      },
+      "39": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:39:09.898Z"
+      },
+      "40": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:39:19.642Z"
+      },
+      "41": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:39:32.811Z"
+      },
+      "42": {
+        "score1": 0,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:39:42.188Z"
+      },
+      "43": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:40:04.566Z"
+      },
+      "44": {
+        "score1": 0,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:40:12.668Z"
+      },
+      "45": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:40:18.826Z"
+      },
+      "46": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:40:29.600Z"
+      },
+      "47": {
+        "score1": 0,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:40:36.307Z"
+      },
+      "48": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:40:50.120Z"
+      },
+      "49": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:41:06.148Z"
+      },
+      "50": {
+        "score1": 0,
+        "score2": 4,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:41:17.262Z"
+      },
+      "51": {
+        "score1": 4,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:41:22.665Z"
+      },
+      "52": {
+        "score1": 2,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:41:33.521Z"
+      },
+      "53": {
+        "score1": 1,
+        "score2": 4,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:41:41.016Z"
+      },
+      "54": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:41:50.303Z"
+      },
+      "55": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:42:13.610Z"
+      },
+      "56": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:42:25.980Z"
+      },
+      "57": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:42:31.315Z"
+      },
+      "58": {
+        "score1": 0,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:42:38.189Z"
+      },
+      "59": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:42:44.312Z"
+      },
+      "60": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:42:49.229Z"
+      },
+      "61": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:43:00.713Z"
+      },
+      "62": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:43:05.497Z"
+      },
+      "63": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:43:10.011Z"
+      },
+      "64": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:43:16.221Z"
+      },
+      "65": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:43:20.479Z"
+      },
+      "66": {
+        "score1": 0,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:43:26.101Z"
+      },
+      "67": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:43:38.700Z"
+      },
+      "68": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:43:48.599Z"
+      },
+      "69": {
+        "score1": 3,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:43:59.443Z"
+      },
+      "70": {
+        "score1": 1,
+        "score2": 3,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:44:05.985Z"
+      },
+      "71": {
+        "score1": 0,
+        "score2": 3,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:44:20.234Z"
+      },
+      "72": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-04T15:44:28.516Z"
+      }
+    },
+    "1778585559523": {
+      "1": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:23:56.775Z"
+      },
+      "2": {
+        "score1": 0,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:24:32.841Z"
+      },
+      "3": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:25:13.662Z"
+      },
+      "4": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:25:18.041Z"
+      },
+      "5": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:25:32.470Z"
+      },
+      "6": {
+        "score1": 1,
+        "score2": 4,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:25:38.311Z"
+      },
+      "7": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:26:01.772Z"
+      },
+      "8": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:26:06.766Z"
+      },
+      "9": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:26:12.240Z"
+      },
+      "10": {
+        "score1": 5,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:26:16.201Z"
+      },
+      "11": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:26:22.163Z"
+      },
+      "12": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:26:26.586Z"
+      },
+      "13": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:26:46.023Z"
+      },
+      "14": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:26:54.182Z"
+      },
+      "15": {
+        "score1": 0,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:26:58.206Z"
+      },
+      "16": {
+        "score1": 5,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:27:01.770Z"
+      },
+      "17": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:27:10.268Z"
+      },
+      "18": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:27:25.245Z"
+      },
+      "19": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:27:33.501Z"
+      },
+      "20": {
+        "score1": 2,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:27:37.909Z"
+      },
+      "21": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:27:41.318Z"
+      },
+      "22": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:27:44.638Z"
+      },
+      "23": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:27:49.371Z"
+      },
+      "24": {
+        "score1": 0,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:27:52.336Z"
+      },
+      "25": {
+        "score1": 6,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:28:11.512Z"
+      },
+      "26": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:28:19.587Z"
+      },
+      "27": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:28:22.448Z"
+      },
+      "28": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:28:25.995Z"
+      },
+      "29": {
+        "score1": 0,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:28:30.040Z"
+      },
+      "30": {
+        "score1": 1,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:28:34.364Z"
+      },
+      "31": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:28:50.877Z"
+      },
+      "32": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:29:04.195Z"
+      },
+      "33": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:29:14.054Z"
+      },
+      "34": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:29:18.017Z"
+      },
+      "35": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:29:24.676Z"
+      },
+      "36": {
+        "score1": 0,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:29:34.196Z"
+      },
+      "37": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:29:48.347Z"
+      },
+      "38": {
+        "score1": 0,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:30:03.507Z"
+      },
+      "39": {
+        "score1": 4,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:30:08.373Z"
+      },
+      "40": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:30:17.374Z"
+      },
+      "41": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:30:27.139Z"
+      },
+      "42": {
+        "score1": 0,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:30:36.331Z"
+      },
+      "43": {
+        "score1": 4,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:31:21.421Z"
+      },
+      "44": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:30:52.441Z"
+      },
+      "45": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:31:25.370Z"
+      },
+      "46": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:31:32.182Z"
+      },
+      "47": {
+        "score1": 0,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:31:35.367Z"
+      },
+      "48": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:31:38.954Z"
+      },
+      "49": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:32:05.600Z"
+      },
+      "50": {
+        "score1": 0,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:32:10.624Z"
+      },
+      "51": {
+        "score1": 5,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:32:13.740Z"
+      },
+      "52": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:32:18.338Z"
+      },
+      "53": {
+        "score1": 1,
+        "score2": 4,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:32:25.131Z"
+      },
+      "54": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:32:31.785Z"
+      },
+      "55": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:32:43.035Z"
+      },
+      "56": {
+        "score1": 0,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:32:49.048Z"
+      },
+      "57": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:32:56.125Z"
+      },
+      "58": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:32:59.882Z"
+      },
+      "59": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:02.534Z"
+      },
+      "60": {
+        "score1": 0,
+        "score2": 4,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:07.187Z"
+      },
+      "61": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:15.791Z"
+      },
+      "62": {
+        "score1": 0,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:19.431Z"
+      },
+      "63": {
+        "score1": 5,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:22.597Z"
+      },
+      "64": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:25.413Z"
+      },
+      "65": {
+        "score1": 2,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:29.536Z"
+      },
+      "66": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:35.249Z"
+      },
+      "67": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:43.294Z"
+      },
+      "68": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:46.110Z"
+      },
+      "69": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:49.620Z"
+      },
+      "70": {
+        "score1": 0,
+        "score2": 4,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:53.527Z"
+      },
+      "71": {
+        "score1": 0,
+        "score2": 5,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:33:57.967Z"
+      },
+      "72": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-05-13T13:34:03.174Z"
+      }
+    },
+    "1778586140756": {
+      "1": {
+        "score1": 2,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:39:23.790Z"
+      },
+      "2": {
+        "score1": 1,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:41:16.100Z"
+      },
+      "3": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:41:49.008Z"
+      },
+      "4": {
+        "score1": 3,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:41:57.199Z"
+      },
+      "5": {
+        "score1": 1,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:42:13.270Z"
+      },
+      "6": {
+        "score1": 1,
+        "score2": 3,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:42:29.577Z"
+      },
+      "7": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:43:38.059Z"
+      },
+      "8": {
+        "score1": 1,
+        "score2": 3,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:44:29.932Z"
+      },
+      "9": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:44:43.688Z"
+      },
+      "10": {
+        "score1": 2,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:44:50.057Z"
+      },
+      "11": {
+        "score1": 3,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:45:01.540Z"
+      },
+      "12": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:45:08.924Z"
+      },
+      "13": {
+        "score1": 3,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:45:28.767Z"
+      },
+      "14": {
+        "score1": 0,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:46:05.951Z"
+      },
+      "15": {
+        "score1": 0,
+        "score2": 3,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:46:13.315Z"
+      },
+      "16": {
+        "score1": 4,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:46:35.123Z"
+      },
+      "17": {
+        "score1": 0,
+        "score2": 3,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:46:44.720Z"
+      },
+      "18": {
+        "score1": 4,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:47:02.273Z"
+      },
+      "19": {
+        "score1": 3,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:50:06.912Z"
+      },
+      "20": {
+        "score1": 0,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:50:32.631Z"
+      },
+      "21": {
+        "score1": 3,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:50:42.727Z"
+      },
+      "22": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:51:02.141Z"
+      },
+      "23": {
+        "score1": 1,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:51:09.757Z"
+      },
+      "24": {
+        "score1": 0,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:51:16.118Z"
+      },
+      "25": {
+        "score1": 7,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:51:47.982Z"
+      },
+      "26": {
+        "score1": 1,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:52:43.793Z"
+      },
+      "27": {
+        "score1": 3,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:52:52.257Z"
+      },
+      "28": {
+        "score1": 2,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:53:01.594Z"
+      },
+      "29": {
+        "score1": 0,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:53:09.642Z"
+      },
+      "30": {
+        "score1": 1,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-11T10:29:13.980Z"
+      },
+      "31": {
+        "score1": 3,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-05T06:07:45.220Z"
+      },
+      "32": {
+        "score1": 2,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:54:39.664Z"
+      },
+      "33": {
+        "score1": 3,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:54:43.669Z"
+      },
+      "34": {
+        "score1": 0,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:54:49.664Z"
+      },
+      "35": {
+        "score1": 1,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:54:58.331Z"
+      },
+      "36": {
+        "score1": 0,
+        "score2": 4,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:55:03.207Z"
+      },
+      "37": {
+        "score1": 3,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:55:39.982Z"
+      },
+      "38": {
+        "score1": 0,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:56:02.175Z"
+      },
+      "39": {
+        "score1": 4,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:56:06.396Z"
+      },
+      "40": {
+        "score1": 1,
+        "score2": 3,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:56:18.607Z"
+      },
+      "41": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:56:24.827Z"
+      },
+      "42": {
+        "score1": 0,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:56:39.487Z"
+      },
+      "43": {
+        "score1": 3,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:57:08.934Z"
+      },
+      "44": {
+        "score1": 0,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:57:14.463Z"
+      },
+      "45": {
+        "score1": 2,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:57:28.073Z"
+      },
+      "46": {
+        "score1": 3,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:57:43.688Z"
+      },
+      "47": {
+        "score1": 2,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:57:59.532Z"
+      },
+      "48": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:58:04.076Z"
+      },
+      "49": {
+        "score1": 3,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:59:23.443Z"
+      },
+      "50": {
+        "score1": 0,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:59:32.794Z"
+      },
+      "51": {
+        "score1": 4,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:59:38.685Z"
+      },
+      "52": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:59:51.606Z"
+      },
+      "53": {
+        "score1": 1,
+        "score2": 3,
+        "username": "David",
+        "updatedAt": "2026-06-03T12:59:55.495Z"
+      },
+      "54": {
+        "score1": 2,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:00:00.728Z"
+      },
+      "55": {
+        "score1": 3,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:01:02.963Z"
+      },
+      "56": {
+        "score1": 2,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:01:19.113Z"
+      },
+      "57": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:01:29.472Z"
+      },
+      "58": {
+        "score1": 0,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:01:37.750Z"
+      },
+      "59": {
+        "score1": 1,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:01:45.269Z"
+      },
+      "60": {
+        "score1": 0,
+        "score2": 3,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:01:51.334Z"
+      },
+      "61": {
+        "score1": 5,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:02:04.882Z"
+      },
+      "62": {
+        "score1": 0,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:02:08.475Z"
+      },
+      "63": {
+        "score1": 4,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:02:17.165Z"
+      },
+      "64": {
+        "score1": 3,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:02:24.781Z"
+      },
+      "65": {
+        "score1": 1,
+        "score2": 3,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:02:29.884Z"
+      },
+      "66": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:02:45.069Z"
+      },
+      "67": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:03:13.434Z"
+      },
+      "68": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:04:38.419Z"
+      },
+      "69": {
+        "score1": 3,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:03:23.286Z"
+      },
+      "70": {
+        "score1": 0,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:03:28.171Z"
+      },
+      "71": {
+        "score1": 0,
+        "score2": 4,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:03:31.893Z"
+      },
+      "72": {
+        "score1": 1,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-03T13:03:45.070Z"
+      }
+    }
+  },
+  "actualResults": {
+    "1": {
+      "score1": 2,
+      "score2": 0
+    },
+    "2": {
+      "score1": 2,
+      "score2": 1
+    },
+    "3": {
+      "score1": 1,
+      "score2": 1
+    },
+    "4": {
+      "score1": 1,
+      "score2": 0
+    },
+    "7": {
+      "score1": 1,
+      "score2": 1
+    },
+    "8": {
+      "score1": 1,
+      "score2": 1
+    },
+    "9": {
+      "score1": 4,
+      "score2": 1
+    },
+    "10": {
+      "score1": 6,
+      "score2": 0
+    },
+    "13": {
+      "score1": 1,
+      "score2": 1
+    },
+    "14": {
+      "score1": 0,
+      "score2": 1
+    },
+    "15": {
+      "score1": 0,
+      "score2": 1
+    },
+    "16": {
+      "score1": 3,
+      "score2": 0
+    },
+    "19": {
+      "score1": 4,
+      "score2": 1
+    },
+    "20": {
+      "score1": 2,
+      "score2": 0
+    },
+    "21": {
+      "score1": 2,
+      "score2": 0
+    },
+    "22": {
+      "score1": 0,
+      "score2": 1
+    },
+    "25": {
+      "score1": 7,
+      "score2": 1
+    },
+    "26": {
+      "score1": 1,
+      "score2": 0
+    },
+    "27": {
+      "score1": 2,
+      "score2": 1
+    },
+    "28": {
+      "score1": 0,
+      "score2": 0
+    },
+    "31": {
+      "score1": 2,
+      "score2": 2
+    },
+    "32": {
+      "score1": 5,
+      "score2": 1
+    },
+    "33": {
+      "score1": 5,
+      "score2": 1
+    },
+    "34": {
+      "score1": 0,
+      "score2": 4
+    },
+    "37": {
+      "score1": 1,
+      "score2": 1
+    },
+    "38": {
+      "score1": 2,
+      "score2": 2
+    },
+    "39": {
+      "score1": 0,
+      "score2": 0
+    },
+    "40": {
+      "score1": 1,
+      "score2": 3
+    },
+    "43": {
+      "score1": 0,
+      "score2": 0
+    },
+    "44": {
+      "score1": 1,
+      "score2": 1
+    },
+    "45": {
+      "score1": 4,
+      "score2": 0
+    },
+    "46": {
+      "score1": 2,
+      "score2": 2
+    },
+    "49": {
+      "score1": 3,
+      "score2": 1
+    },
+    "50": {
+      "score1": 1,
+      "score2": 4
+    },
+    "51": {
+      "score1": 3,
+      "score2": 0
+    },
+    "52": {
+      "score1": 3,
+      "score2": 2
+    },
+    "55": {
+      "score1": 3,
+      "score2": 0
+    },
+    "56": {
+      "score1": 3,
+      "score2": 1
+    },
+    "57": {
+      "score1": 2,
+      "score2": 0
+    },
+    "58": {
+      "score1": 1,
+      "score2": 2
+    },
+    "61": {
+      "score1": 1,
+      "score2": 1
+    },
+    "62": {
+      "score1": 1,
+      "score2": 3
+    },
+    "63": {
+      "score1": 5,
+      "score2": 0
+    },
+    "64": {
+      "score1": 1,
+      "score2": 0
+    },
+    "67": {
+      "score1": 4,
+      "score2": 2
+    },
+    "68": {
+      "score1": 1,
+      "score2": 0
+    },
+    "69": {
+      "score1": 0,
+      "score2": 0
+    },
+    "70": {
+      "score1": 0,
+      "score2": 1
+    }
+  }
+}
