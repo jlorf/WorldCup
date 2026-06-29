@@ -396,12 +396,6 @@ function MatchCardSmall({ match, roundId, user, expandedMatch, setExpandedMatch,
           </div>
         </div>
 
-        <div className="card-footer">
-          <span className="card-date">{match.date}</span>
-          {matchPassed && <span className="card-passed">Fet</span>}
-          {nextLabel && <span className="card-next">{nextLabel}</span>}
-        </div>
-
         {user && !matchPassed && (
           <button
             className={`card-predict-btn ${userResult ? 'btn-outline' : 'btn-primary'} btn-sm`}
@@ -410,6 +404,12 @@ function MatchCardSmall({ match, roundId, user, expandedMatch, setExpandedMatch,
             {userResult ? 'Modif' : 'Prono'}
           </button>
         )}
+
+        <div className="card-footer">
+          <span className="card-date">{match.date}</span>
+          {matchPassed && <span className="card-passed">Fet</span>}
+          {nextLabel && <span className="card-next">{nextLabel}</span>}
+        </div>
 
         {userResult && matchPassed && (
           <div className="card-prediction">
