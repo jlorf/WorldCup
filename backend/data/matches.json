@@ -579,128 +579,128 @@
     {
       "id": 73,
       "round": "Round of 32",
-      "team1": "2A",
-      "team2": "2B",
+      "team1": "South Africa",
+      "team2": "Canada",
       "date": "2026-06-28",
       "time": "12:00"
     },
     {
       "id": 74,
       "round": "Round of 32",
-      "team1": "1E",
-      "team2": "3A/B/C/D/F",
+      "team1": "Germany",
+      "team2": "Paraguay",
       "date": "2026-06-29",
       "time": "16:30"
     },
     {
       "id": 75,
       "round": "Round of 32",
-      "team1": "1F",
-      "team2": "2C",
+      "team1": "Netherlands",
+      "team2": "Morocco",
       "date": "2026-06-29",
       "time": "19:00"
     },
     {
       "id": 76,
       "round": "Round of 32",
-      "team1": "1C",
-      "team2": "2F",
+      "team1": "Brazil",
+      "team2": "Japan",
       "date": "2026-06-29",
       "time": "12:00"
     },
     {
       "id": 77,
       "round": "Round of 32",
-      "team1": "1I",
-      "team2": "3C/D/F/G/H",
+      "team1": "France",
+      "team2": "Sweden",
       "date": "2026-06-30",
       "time": "17:00"
     },
     {
       "id": 78,
       "round": "Round of 32",
-      "team1": "2E",
-      "team2": "2I",
+      "team1": "Ivory Coast",
+      "team2": "Norway",
       "date": "2026-06-30",
       "time": "12:00"
     },
     {
       "id": 79,
       "round": "Round of 32",
-      "team1": "1A",
-      "team2": "3C/E/F/H/I",
+      "team1": "Mexico",
+      "team2": "Ecuador",
       "date": "2026-06-30",
       "time": "19:00"
     },
     {
       "id": 80,
       "round": "Round of 32",
-      "team1": "1L",
-      "team2": "3E/H/I/J/K",
+      "team1": "England",
+      "team2": "DR Congo",
       "date": "2026-07-01",
       "time": "12:00"
     },
     {
       "id": 81,
       "round": "Round of 32",
-      "team1": "1D",
-      "team2": "3B/E/F/I/J",
+      "team1": "USA",
+      "team2": "Bosnia & Herzegovina",
       "date": "2026-07-01",
       "time": "17:00"
     },
     {
       "id": 82,
       "round": "Round of 32",
-      "team1": "1G",
-      "team2": "3A/E/H/I/J",
+      "team1": "Belgium",
+      "team2": "Senegal",
       "date": "2026-07-01",
       "time": "13:00"
     },
     {
       "id": 83,
       "round": "Round of 32",
-      "team1": "2K",
-      "team2": "2L",
+      "team1": "Portugal",
+      "team2": "Croatia",
       "date": "2026-07-02",
       "time": "19:00"
     },
     {
       "id": 84,
       "round": "Round of 32",
-      "team1": "1H",
-      "team2": "2J",
+      "team1": "Spain",
+      "team2": "Austria",
       "date": "2026-07-02",
       "time": "12:00"
     },
     {
       "id": 85,
       "round": "Round of 32",
-      "team1": "1B",
-      "team2": "3E/F/G/I/J",
+      "team1": "Switzerland",
+      "team2": "Algeria",
       "date": "2026-07-02",
       "time": "20:00"
     },
     {
       "id": 86,
       "round": "Round of 32",
-      "team1": "1J",
-      "team2": "2H",
+      "team1": "Argentina",
+      "team2": "Cape Verde",
       "date": "2026-07-03",
       "time": "18:00"
     },
     {
       "id": 87,
       "round": "Round of 32",
-      "team1": "1K",
-      "team2": "3D/E/I/J/L",
+      "team1": "Colombia",
+      "team2": "Ghana",
       "date": "2026-07-03",
       "time": "20:30"
     },
     {
       "id": 88,
       "round": "Round of 32",
-      "team1": "2D",
-      "team2": "2G",
+      "team1": "Australia",
+      "team2": "Egypt",
       "date": "2026-07-03",
       "time": "13:00"
     },
@@ -1266,6 +1266,96 @@
         "score2": 1,
         "username": "joel",
         "updatedAt": "2026-06-04T15:44:28.516Z"
+      },
+      "74": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:28:26.765Z"
+      },
+      "75": {
+        "score1": 2,
+        "score2": 3,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:29:00.707Z"
+      },
+      "76": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:26:58.820Z"
+      },
+      "77": {
+        "score1": 4,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:28:41.013Z"
+      },
+      "78": {
+        "score1": 3,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:30:51.730Z"
+      },
+      "79": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:31:04.450Z"
+      },
+      "80": {
+        "score1": 4,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:31:13.217Z"
+      },
+      "81": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:30:09.329Z"
+      },
+      "82": {
+        "score1": 2,
+        "score2": 2,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:30:23.770Z"
+      },
+      "83": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:29:25.562Z"
+      },
+      "84": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:29:53.667Z"
+      },
+      "85": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:31:40.945Z"
+      },
+      "86": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:31:25.193Z"
+      },
+      "87": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:31:57.250Z"
+      },
+      "88": {
+        "score1": 0,
+        "score2": 1,
+        "username": "joel",
+        "updatedAt": "2026-06-29T06:31:33.489Z"
       }
     },
     "1778585559523": {
@@ -1700,6 +1790,192 @@
         "score2": 2,
         "username": "joan",
         "updatedAt": "2026-05-13T13:34:03.174Z"
+      },
+      "74": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:26:41.919Z"
+      },
+      "75": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:27:43.584Z"
+      },
+      "76": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:28:41.085Z"
+      },
+      "77": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:26:55.630Z"
+      },
+      "78": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:28:47.723Z"
+      },
+      "79": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:28:52.349Z"
+      },
+      "80": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:29:02.205Z"
+      },
+      "81": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:28:15.149Z"
+      },
+      "82": {
+        "score1": 1,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:28:27.997Z"
+      },
+      "83": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:27:57.383Z"
+      },
+      "84": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:28:09.181Z"
+      },
+      "85": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:29:30.727Z"
+      },
+      "86": {
+        "score1": 4,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:29:10.528Z"
+      },
+      "87": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:29:37.794Z"
+      },
+      "88": {
+        "score1": 0,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:29:22.242Z"
+      },
+      "89": {
+        "score1": 1,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:29:49.508Z"
+      },
+      "90": {
+        "score1": 1,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:29:58.530Z"
+      },
+      "91": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:30:51.334Z"
+      },
+      "92": {
+        "score1": 0,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:30:58.089Z"
+      },
+      "93": {
+        "score1": 2,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:30:07.442Z"
+      },
+      "94": {
+        "score1": 1,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:30:16.640Z"
+      },
+      "95": {
+        "score1": 3,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:31:03.266Z"
+      },
+      "96": {
+        "score1": 0,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:31:11.209Z"
+      },
+      "97": {
+        "score1": 2,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:30:31.386Z"
+      },
+      "98": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:30:22.228Z"
+      },
+      "99": {
+        "score1": 1,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:31:31.681Z"
+      },
+      "100": {
+        "score1": 2,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:31:21.058Z"
+      },
+      "101": {
+        "score1": 3,
+        "score2": 0,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:30:35.663Z"
+      },
+      "102": {
+        "score1": 0,
+        "score2": 1,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:31:36.937Z"
+      },
+      "103": {
+        "score1": 2,
+        "score2": 2,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:31:45.481Z"
+      },
+      "104": {
+        "score1": 1,
+        "score2": 3,
+        "username": "joan",
+        "updatedAt": "2026-06-29T06:31:55.146Z"
       }
     },
     "1778586140756": {
@@ -2134,6 +2410,96 @@
         "score2": 1,
         "username": "David",
         "updatedAt": "2026-06-03T13:03:45.070Z"
+      },
+      "74": {
+        "score1": 2,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:35:11.890Z"
+      },
+      "75": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:38:49.860Z"
+      },
+      "76": {
+        "score1": 3,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:40:32.522Z"
+      },
+      "77": {
+        "score1": 3,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:34:54.101Z"
+      },
+      "78": {
+        "score1": 2,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:41:31.530Z"
+      },
+      "79": {
+        "score1": 1,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:42:24.353Z"
+      },
+      "80": {
+        "score1": 3,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:42:45.344Z"
+      },
+      "81": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:40:04.715Z"
+      },
+      "82": {
+        "score1": 1,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:40:21.070Z"
+      },
+      "83": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:39:18.536Z"
+      },
+      "84": {
+        "score1": 2,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:39:40.161Z"
+      },
+      "85": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:45:29.985Z"
+      },
+      "86": {
+        "score1": 3,
+        "score2": 0,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:43:12.417Z"
+      },
+      "87": {
+        "score1": 2,
+        "score2": 1,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:46:27.725Z"
+      },
+      "88": {
+        "score1": 0,
+        "score2": 2,
+        "username": "David",
+        "updatedAt": "2026-06-29T06:44:37.140Z"
       }
     }
   },
@@ -2154,6 +2520,14 @@
       "score1": 1,
       "score2": 0
     },
+    "5": {
+      "score1": 0,
+      "score2": 3
+    },
+    "6": {
+      "score1": 1,
+      "score2": 0
+    },
     "7": {
       "score1": 1,
       "score2": 1
@@ -2169,6 +2543,14 @@
     "10": {
       "score1": 6,
       "score2": 0
+    },
+    "11": {
+      "score1": 2,
+      "score2": 1
+    },
+    "12": {
+      "score1": 3,
+      "score2": 1
     },
     "13": {
       "score1": 1,
@@ -2186,6 +2568,14 @@
       "score1": 3,
       "score2": 0
     },
+    "17": {
+      "score1": 0,
+      "score2": 3
+    },
+    "18": {
+      "score1": 4,
+      "score2": 2
+    },
     "19": {
       "score1": 4,
       "score2": 1
@@ -2201,6 +2591,14 @@
     "22": {
       "score1": 0,
       "score2": 1
+    },
+    "23": {
+      "score1": 3,
+      "score2": 2
+    },
+    "24": {
+      "score1": 0,
+      "score2": 0
     },
     "25": {
       "score1": 7,
@@ -2218,6 +2616,14 @@
       "score1": 0,
       "score2": 0
     },
+    "29": {
+      "score1": 0,
+      "score2": 2
+    },
+    "30": {
+      "score1": 2,
+      "score2": 1
+    },
     "31": {
       "score1": 2,
       "score2": 2
@@ -2233,6 +2639,14 @@
     "34": {
       "score1": 0,
       "score2": 4
+    },
+    "35": {
+      "score1": 1,
+      "score2": 1
+    },
+    "36": {
+      "score1": 1,
+      "score2": 3
     },
     "37": {
       "score1": 1,
@@ -2250,6 +2664,14 @@
       "score1": 1,
       "score2": 3
     },
+    "41": {
+      "score1": 1,
+      "score2": 1
+    },
+    "42": {
+      "score1": 1,
+      "score2": 5
+    },
     "43": {
       "score1": 0,
       "score2": 0
@@ -2265,6 +2687,14 @@
     "46": {
       "score1": 2,
       "score2": 2
+    },
+    "47": {
+      "score1": 0,
+      "score2": 0
+    },
+    "48": {
+      "score1": 0,
+      "score2": 1
     },
     "49": {
       "score1": 3,
@@ -2282,6 +2712,14 @@
       "score1": 3,
       "score2": 2
     },
+    "53": {
+      "score1": 1,
+      "score2": 4
+    },
+    "54": {
+      "score1": 5,
+      "score2": 0
+    },
     "55": {
       "score1": 3,
       "score2": 0
@@ -2297,6 +2735,14 @@
     "58": {
       "score1": 1,
       "score2": 2
+    },
+    "59": {
+      "score1": 3,
+      "score2": 3
+    },
+    "60": {
+      "score1": 1,
+      "score2": 3
     },
     "61": {
       "score1": 1,
@@ -2314,6 +2760,14 @@
       "score1": 1,
       "score2": 0
     },
+    "65": {
+      "score1": 0,
+      "score2": 0
+    },
+    "66": {
+      "score1": 3,
+      "score2": 1
+    },
     "67": {
       "score1": 4,
       "score2": 2
@@ -2327,6 +2781,18 @@
       "score2": 0
     },
     "70": {
+      "score1": 0,
+      "score2": 1
+    },
+    "71": {
+      "score1": 0,
+      "score2": 2
+    },
+    "72": {
+      "score1": 2,
+      "score2": 1
+    },
+    "73": {
       "score1": 0,
       "score2": 1
     }

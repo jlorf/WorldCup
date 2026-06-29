@@ -108,6 +108,34 @@ function loadLocalResults(matches) {
   return mapExternalToActualResults({ matches: local }, matches);
 }
 
+function isPlaceholderTeamName(name) {
+  if (!name) return true;
+  if (/^\d[A-Z]$/.test(name)) return true;
+  if (name.includes('/')) return true;
+  if (/^W\d+$/.test(name)) return true;
+  if (/^L\d+$/.test(name)) return true;
+  return false;
+}
+
+function updateKnockoutTeamNames(matches, externalData) {
+  if (!externalData || !externalData.matches) return;
+
+  externalData.matches.forEach(m => {
+    if (m.num == null) return;
+    const match = matches.find(x => x.id === m.num);
+    if (!match || match.id < 73) return;
+
+    if (!isPlaceholderTeamName(m.team1) && match.team1 !== m.team1) {
+      console.log(`KO #${match.id}: team1 "${match.team1}" → "${m.team1}"`);
+      match.team1 = m.team1;
+    }
+    if (!isPlaceholderTeamName(m.team2) && match.team2 !== m.team2) {
+      console.log(`KO #${match.id}: team2 "${match.team2}" → "${m.team2}"`);
+      match.team2 = m.team2;
+    }
+  });
+}
+
 const usersFile = path.join(DATA_DIR, 'users.json');
 const matchesFile = path.join(DATA_DIR, 'matches.json');
 
@@ -462,6 +490,7 @@ app.post('/api/sync-results', async (req, res) => {
   
   if (externalData) {
     const externalResults = mapExternalToActualResults(externalData, matches);
+    updateKnockoutTeamNames(matches, externalData);
     data.actualResults = { ...data.actualResults, ...externalResults };
     console.log(`Synced ${Object.keys(externalResults).length} external results`);
   }
@@ -552,6 +581,7 @@ app.get('/api/ranking', async (req, res) => {
   const externalData = await fetchExternalResults();
   if (externalData) {
     const externalResults = mapExternalToActualResults(externalData, matches);
+    updateKnockoutTeamNames(matches, externalData);
     const newResults = {};
     Object.keys(externalResults).forEach(key => {
       if (!data.actualResults || !data.actualResults[key]) {
@@ -614,6 +644,7 @@ async function syncOnStartup() {
     
     if (externalData) {
       const externalResults = mapExternalToActualResults(externalData, matches);
+      updateKnockoutTeamNames(matches, externalData);
       data.actualResults = { ...data.actualResults, ...externalResults };
       console.log(`Synced ${Object.keys(externalResults).length} external results`);
     } else {
@@ -657,6 +688,7 @@ syncOnStartup().then(() => {
       
       if (externalData) {
         const externalResults = mapExternalToActualResults(externalData, matches);
+        updateKnockoutTeamNames(matches, externalData);
         const newResults = {};
         Object.keys(externalResults).forEach(key => {
           if (!data.actualResults || !data.actualResults[key]) {
