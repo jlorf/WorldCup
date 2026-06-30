@@ -15,6 +15,7 @@ export { API_URL }
 
 function App() {
   const [user, setUser] = useState(null)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
     const token = localStorage.getItem('token')
@@ -38,42 +39,56 @@ function App() {
   const handleLogout = () => {
     localStorage.removeItem('token')
     setUser(null)
+    setMenuOpen(false)
   }
+
+  const closeMenu = () => setMenuOpen(false)
 
   return (
     <BrowserRouter>
       <div className="container">
         <header>
-          <h1>🏆 Mundial 2026</h1>
-          {user ? (
-            <div className="user-info">
-              <span>Benvingut, {user}!</span>
-              <Link to="/knockout">
-                <button className="btn btn-outline">Eliminatòries</button>
-              </Link>
-              <Link to="/summary">
-                <button className="btn btn-outline">Resum</button>
-              </Link>
-              <Link to="/ranking">
-                <button className="btn btn-outline">Classificació</button>
-              </Link>
-              <button className="btn btn-secondary" onClick={handleLogout}>Tancar sessió</button>
-            </div>
-          ) : (
-            <div className="nav-buttons">
-              <Link to="/knockout">
-                <button className="btn btn-outline">Eliminatòries</button>
-              </Link>
-              <Link to="/summary">
-                <button className="btn btn-outline">Resum</button>
-              </Link>
-              <Link to="/ranking">
-                <button className="btn btn-outline">Classificació</button>
-              </Link>
-              <button className="btn btn-primary" onClick={() => window.location.href = '/login'}>Iniciar sessió</button>
-              <button className="btn btn-secondary" onClick={() => window.location.href = '/register'}>Registrar-se</button>
-            </div>
-          )}
+          <div className="header-top">
+            <h1>🏆 Mundial 2026</h1>
+            <button
+              className="hamburger-btn"
+              onClick={() => setMenuOpen(o => !o)}
+              aria-label="Obrir menú"
+            >
+              {menuOpen ? '✕' : '☰'}
+            </button>
+          </div>
+          <nav className={`header-nav${menuOpen ? ' open' : ''}`}>
+            {user ? (
+              <div className="user-info">
+                <span>Benvingut, {user}!</span>
+                <Link to="/knockout" onClick={closeMenu}>
+                  <button className="btn btn-outline">Eliminatòries</button>
+                </Link>
+                <Link to="/summary" onClick={closeMenu}>
+                  <button className="btn btn-outline">Resum</button>
+                </Link>
+                <Link to="/ranking" onClick={closeMenu}>
+                  <button className="btn btn-outline">Classificació</button>
+                </Link>
+                <button className="btn btn-secondary" onClick={handleLogout}>Tancar sessió</button>
+              </div>
+            ) : (
+              <div className="nav-buttons">
+                <Link to="/knockout" onClick={closeMenu}>
+                  <button className="btn btn-outline">Eliminatòries</button>
+                </Link>
+                <Link to="/summary" onClick={closeMenu}>
+                  <button className="btn btn-outline">Resum</button>
+                </Link>
+                <Link to="/ranking" onClick={closeMenu}>
+                  <button className="btn btn-outline">Classificació</button>
+                </Link>
+                <button className="btn btn-primary" onClick={() => { window.location.href = '/login'; closeMenu() }}>Iniciar sessió</button>
+                <button className="btn btn-secondary" onClick={() => { window.location.href = '/register'; closeMenu() }}>Registrar-se</button>
+              </div>
+            )}
+          </nav>
         </header>
         <Routes>
           <Route path="/" element={<Groups />} />

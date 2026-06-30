@@ -30,16 +30,52 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 16px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
 }
 
 header h1 {
   font-size: 2rem;
   color: #ffd700;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  white-space: nowrap;
 }
 
 header h1 span {
   color: #fff;
+}
+
+.hamburger-btn {
+  display: none;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 1.3rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s, background 0.2s;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.hamburger-btn:hover {
+  border-color: #ffd700;
+  background: rgba(255, 215, 0, 0.12);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .nav-buttons {
@@ -711,34 +747,19 @@ header h1 span {
   font-size: 1.8rem;
 }
 
-/* ---- Bracket Tree Layout (horizontal scroll) ---- */
+/* ---- Bracket Tree Layout ---- */
 
 .bracket-layout {
   display: flex;
   gap: 4px;
-  overflow-x: auto;
   align-items: stretch;
   min-height: 800px;
   padding: 0 4px 10px;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255, 215, 0, 0.3) transparent;
-}
-
-.bracket-layout::-webkit-scrollbar {
-  height: 6px;
-}
-
-.bracket-layout::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.bracket-layout::-webkit-scrollbar-thumb {
-  background: rgba(255, 215, 0, 0.25);
-  border-radius: 3px;
 }
 
 .bracket-side {
-  flex: 0 0 auto;
+  flex: 1;
+  min-width: 0;
 }
 
 
@@ -747,7 +768,7 @@ header h1 span {
 
 .bracket-side-header {
   display: grid;
-  grid-template-columns: repeat(4, 175px);
+  grid-template-columns: repeat(4, 1fr);
   gap: 3px;
   padding: 0 2px;
   margin-bottom: 6px;
@@ -755,29 +776,32 @@ header h1 span {
 
 .bracket-col-label {
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   color: var(--h-color, #ffd700);
-  padding: 6px 0;
+  padding: 6px 2px;
   border-bottom: 2px solid var(--h-color, rgba(255,215,0,0.3));
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .bracket-center {
-  flex: 0 0 280px;
+  flex: 0 0 200px;
   display: flex;
   flex-direction: column;
   gap: 16px;
   justify-content: center;
-  padding: 0 16px;
+  padding: 0 8px;
 }
 
 /* ---- Bracket Grid (per side) ---- */
 
 .bracket-grid {
   display: grid;
-  grid-template-columns: repeat(4, 175px);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(16, 1fr);
   gap: 3px;
   height: 100%;
@@ -795,7 +819,6 @@ header h1 span {
 
 .bracket-card-wrap {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1086,8 +1109,12 @@ header h1 span {
 
 .center-team-name {
   flex: 1;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
 }
 
 .center-score {
@@ -1144,15 +1171,23 @@ header h1 span {
 /* ---- Score Form ---- */
 
 .bracket-score-form {
-  margin-top: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 280px;
   padding: 12px;
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(10px);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   animation: bracketSlideDown 0.25s ease;
-  position: relative;
-  z-index: 3;
+  z-index: 10;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+
+.side-reversed .bracket-card-wrap .bracket-score-form {
+  left: auto;
+  right: 0;
 }
 
 @keyframes bracketSlideDown {
@@ -1218,14 +1253,6 @@ header h1 span {
     align-items: center;
   }
 
-  .bracket-side {
-    width: 100%;
-  }
-
-  .bracket-grid {
-    min-height: 500px;
-  }
-
   .bracket-center {
     flex-direction: row;
     min-width: 0;
@@ -1233,14 +1260,286 @@ header h1 span {
     width: 100%;
     padding: 16px 0;
     gap: 16px;
+    flex: none;
   }
 
   .center-card-wrap {
     flex: 1;
   }
+
+  .bracket-score-form {
+    min-width: 240px;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .bracket-side {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+
+  .bracket-grid {
+    min-width: 620px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  /* Header: disposició vertical amb menú hamburguesa */
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 14px 16px;
+    gap: 0;
+    margin-bottom: 16px;
+  }
+
+  .header-top {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  .hamburger-btn {
+    display: flex;
+  }
+
+  /* Nav col·lapsable en mòbil */
+  .header-nav {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 14px;
+    margin-top: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .header-nav.open {
+    display: flex;
+  }
+
+  .nav-buttons,
+  .user-info {
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .user-info span {
+    text-align: center;
+    padding: 6px 0 10px;
+    color: #ffd700;
+    font-size: 0.95rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-buttons .btn,
+  .user-info .btn {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+  }
+
+  .nav-buttons > a,
+  .user-info > a {
+    width: 100%;
+    display: block;
+  }
+
+  .nav-buttons > a .btn,
+  .user-info > a .btn {
+    width: 100%;
+  }
+
+  /* Grups */
+  .groups-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  /* Capçaleres de seccions (flex row -> columna) */
+  .matches-header,
+  .ranking-header,
+  .summary-header,
+  .knockout-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .knockout-header h2 {
+    font-size: 1.4rem;
+  }
+
+  /* Match cards */
+  .match-card {
+    padding: 14px;
+  }
+
+  .teams {
+    gap: 10px;
+    font-size: 1.1rem;
+  }
+
+  .team {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  /* Ranking */
+  .ranking-row {
+    padding: 12px 14px;
+  }
+
+  .ranking-row .position {
+    width: 38px;
+    font-size: 1rem;
+  }
+
+  .ranking-row .username {
+    font-size: 0.95rem;
+  }
+
+  .ranking-row .points {
+    width: 60px;
+    font-size: 1rem;
+  }
+
+  /* Summary */
+  .summary-card {
+    padding: 12px 14px;
+  }
+
+  .summary-teams {
+    gap: 8px;
+    font-size: 1rem;
+  }
+
+  .summary-score {
+    font-size: 1.2rem;
+    min-width: 50px;
+  }
+
+  /* Formularis */
+  .form-container {
+    margin: 20px auto;
+    padding: 24px 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 8px;
+  }
+
+  header h1 {
+    font-size: 1.15rem;
+  }
+
+  /* Grups: una sola columna */
+  .groups-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  /* Equips dels partits: apilats verticalment */
+  .teams {
+    flex-direction: column;
+    gap: 6px;
+    font-size: 1rem;
+  }
+
+  .team {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .vs {
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 2px 0;
+  }
+
+  .match-card {
+    padding: 12px;
+  }
+
+  .match-card h3 {
+    font-size: 0.95rem;
+  }
+
+  .score-input {
+    gap: 10px;
+  }
+
+  .score-input input {
+    width: 52px;
+    font-size: 1.1rem;
+  }
+
+  /* Ranking */
+  .ranking-row {
+    padding: 10px 10px;
+    gap: 0;
+  }
+
+  .ranking-row .position {
+    width: 30px;
+    font-size: 0.9rem;
+  }
+
+  .ranking-row .username {
+    font-size: 0.85rem;
+  }
+
+  .ranking-row .points {
+    width: 50px;
+    font-size: 0.95rem;
+  }
+
+  /* Summary */
+  .summary-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .summary-teams {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .summary-team {
+    flex: unset;
+    width: 100%;
+  }
+
+  .summary-team:first-child {
+    justify-content: flex-start;
+  }
+
+  .summary-vs {
+    display: none;
+  }
+
+  .summary-score {
+    font-size: 1.1rem;
+    min-width: 40px;
+    order: -1;
+  }
+
+  /* Formularis */
+  .form-container {
+    margin: 12px auto;
+    padding: 20px 14px;
+  }
+
+  /* Bracket */
   .bracket-center {
     flex-direction: column;
   }
