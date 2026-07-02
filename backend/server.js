@@ -45,6 +45,13 @@ function fetchExternalResults() {
   });
 }
 
+function getExternalScore(score) {
+  if (!score) return null;
+  if (score.et) return score.et;
+  if (score.ft) return score.ft;
+  return null;
+}
+
 function mapExternalToActualResults(externalData, matches) {
   if (!externalData || !externalData.matches) return {};
   
@@ -57,7 +64,8 @@ function mapExternalToActualResults(externalData, matches) {
   });
   
   externalData.matches.forEach(m => {
-    if (!m.score || !m.score.ft) return;
+    const scoreArr = getExternalScore(m.score);
+    if (!scoreArr) return;
     
     const team1 = m.team1;
     const team2 = m.team2;
@@ -81,8 +89,8 @@ function mapExternalToActualResults(externalData, matches) {
     
     if (matchId) {
       actualResults[matchId] = {
-        score1: m.score.ft[0],
-        score2: m.score.ft[1]
+        score1: scoreArr[0],
+        score2: scoreArr[1]
       };
     }
   });
@@ -414,18 +422,7 @@ app.get('/api/summary', (req, res) => {
       userResults: Object.keys(results).reduce((acc, userId) => {
         if (results[userId][m.id]) {
           const pred = results[userId][m.id];
-          let points = null;
-          if (actual) {
-            if (pred.score1 === actual.score1 && pred.score2 === actual.score2) {
-              points = 3;
-            } else {
-              const predDiff = pred.score1 - pred.score2;
-              const actualDiff = actual.score1 - actual.score2;
-              const predWinner = predDiff > 0 ? 1 : (predDiff < 0 ? -1 : 0);
-              const actualWinner = actualDiff > 0 ? 1 : (actualDiff < 0 ? -1 : 0);
-              points = predWinner === actualWinner ? 1 : 0;
-            }
-          }
+          const points = calculateMatchPoints(pred, actual);
           acc[userId] = { ...pred, username: pred.username, points };
         }
         return acc;
@@ -551,25 +548,22 @@ app.post('/api/actual-results', authenticate, (req, res) => {
   res.json({ message: 'Actual result saved and ranking updated', rankings });
 });
 
+function calculateMatchPoints(prediction, actual) {
+  if (!actual) return null;
+  if (prediction.score1 === actual.score1 && prediction.score2 === actual.score2) return 3;
+  const predDiff = prediction.score1 - prediction.score2;
+  const actualDiff = actual.score1 - actual.score2;
+  const predWinner = predDiff > 0 ? 1 : (predDiff < 0 ? -1 : 0);
+  const actualWinner = actualDiff > 0 ? 1 : (actualDiff < 0 ? -1 : 0);
+  return predWinner === actualWinner ? 1 : 0;
+}
+
 function calculatePoints(userPredictions, actualResults) {
   let points = 0;
   for (const [matchId, prediction] of Object.entries(userPredictions)) {
     const actual = actualResults[matchId];
     if (!actual) continue;
-    
-    if (prediction.score1 === actual.score1 && prediction.score2 === actual.score2) {
-      points += 3;
-    } else {
-      const predDiff = prediction.score1 - prediction.score2;
-      const actualDiff = actual.score1 - actual.score2;
-      
-      const predWinner = predDiff > 0 ? 1 : (predDiff < 0 ? -1 : 0);
-      const actualWinner = actualDiff > 0 ? 1 : (actualDiff < 0 ? -1 : 0);
-      
-      if (predWinner === actualWinner) {
-        points += 1;
-      }
-    }
+    points += calculateMatchPoints(prediction, actual);
   }
   return points;
 }
@@ -631,6 +625,44 @@ app.post('/api/calculate-ranking', authenticate, (req, res) => {
   rankings.sort((a, b) => b.points - a.points);
   writeJSON(path.join(DATA_DIR, 'ranking.json'), rankings);
   res.json({ message: 'Ranking calculated and saved', rankings });
+});
+
+app.post('/api/recalculate-points', authenticate, async (req, res) => {
+  const data = readJSON(matchesFile, { matches: [], results: {}, actualResults: {} });
+  const matches = data.matches;
+
+  const externalData = await fetchExternalResults();
+
+  data.actualResults = {};
+
+  if (externalData) {
+    const externalResults = mapExternalToActualResults(externalData, matches);
+    updateKnockoutTeamNames(matches, externalData);
+    Object.assign(data.actualResults, externalResults);
+    console.log(`Recalculate: loaded ${Object.keys(externalResults).length} external results`);
+  }
+
+  const localResults = loadLocalResults(matches);
+  if (Object.keys(localResults).length > 0) {
+    Object.assign(data.actualResults, localResults);
+    console.log(`Recalculate: merged ${Object.keys(localResults).length} local results`);
+  }
+
+  const actualResults = data.actualResults;
+  const results = data.results || {};
+  const users = readJSON(usersFile, []);
+
+  const rankings = Object.entries(results).map(([userId, predictions]) => {
+    const user = users.find(u => u.id === userId);
+    const username = user ? user.username : 'Unknown';
+    const points = calculatePoints(predictions, actualResults);
+    return { userId, username, points };
+  });
+
+  rankings.sort((a, b) => b.points - a.points);
+  writeJSON(path.join(DATA_DIR, 'ranking.json'), rankings);
+  writeJSON(matchesFile, data);
+  res.json({ message: 'Points recalculated from scratch', rankings });
 });
 
 async function syncOnStartup() {
